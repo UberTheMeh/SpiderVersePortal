@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rim
+  m_Shader: {fileID: -6465566751694194690, guid: 33b7fa29f529f9c42a8a010d33c6128f,
+    type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DFG:
+        m_Texture: {fileID: 2800000, guid: 212980fe1a8ba984390d6d6792fe0a63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_14246807: 3
+    - Vector1_1A8BC7FE: 0.25
+    - Vector1_57061AC0: 1
+    - Vector1_5DF2DA28: -0.52
+    - Vector1_6E9B953B: 75
+    - Vector1_8CF1522E: 3
+    - Vector1_96B2600A: 0.27
+    - Vector1_A6095669: 3.49
+    - Vector1_E90B1BF0: 1
+    - _AlphaToMask: 0
+    - _Cull: 2
+    - _DstBlend: 10
+    - _Mode: 3
+    - _SrcBlend: 1
+    - _ZWrite: 0
+    m_Colors:
+    - Color_2BE7520B: {r: 0.8338617, g: 0.29436627, b: 0.99056596, a: 1}
+    - Color_60F05E07: {r: 0.53301877, g: 0.9430788, b: 1, a: 1}
+    - Color_D176BD4B: {r: 0.8939512, g: 0.4481132, b: 1, a: 1}
